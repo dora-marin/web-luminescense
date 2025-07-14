@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Productos - Velas Luminescense</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header-flotante visible">
+    <div class="logo-scroll">VELAS LUMINESCENSE</div>
+
+    <div class="menu-carrito">
+      <nav class="nav">
+       <a href="index.html">INICIO</a>
+       <a href="productos.html">PRODUCTOS</a>
+       <a href="contacto.html">CONTACTO</a>
+       <a href="nosotros.html">NOSOTROS</a>
+      </nav>
+
+      <div class="carrito" id="ver-carrito" style="cursor: pointer;  margin-left: 1rem;">
+      🛒  <span id="contador-carrito">0</span>
+      </div>
+    
+    </div>
+  </header>
+
+  <div class="carrito-popup" id="carrito-popup">
+  <h3>Carrito de Compras</h3>
+  <ul id="lista-carrito"></ul>
+  <button onclick="cerrarCarrito()">Cerrar</button>
+  </div>
+
+  <section class="productos" style="margin-top: 100px;">
+    <h2 class="titulo-productos">NUESTRAS VELAS</h2>
+    <div class="galeria">
+        <div class="producto">
+           <img src="imagenes/vela1.jpeg" alt="Vela Lavanda" />
+           <h3>Esencia de  Lavanda</h3>
+           <p>$15.000</p>
+            <button class="btn-carrito">Agregar al carrito</button>
+      </div>
+            <div class="producto">
+                <img src="/imagenes/vela2.jpeg" alt="Vela Vainilla">
+                <h3>Esencia de vainilla</h3>
+                <p>$15.000</p>
+                <button class="btn-carrito">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="/imagenes/vela4.jpeg" alt="Vela Canela">
+                <h3>Esencia de Canela</h3>
+                <p>$15.000</p>
+                <button class="btn-carrito">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="/imagenes/velafloral.jpeg" alt="Vela Floral">
+                <h3>Esencia Floral</h3>
+                <p>$20.000</p>
+                <button class="btn-carrito">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="/imagenes/vela sinaroma.jpeg" alt="Vela Sin Aroma">
+                <h3>Vela Sin Aroma</h3>
+                <p>$15.000</p>
+                <button class="btn-carrito">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="/imagenes/cuadrado.jpeg" alt="Vela con Forma de Cuadrado">
+                <h3>Vela con Forma de Cuadrado</h3>
+                <p>$25.000</p>
+                <button class="btn-carrito">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="/imagenes/nube.jpeg" alt="Vela con Forma de Nube">
+                <h3>Vela con Forma de Nube</h3>
+                <p>$25.000</p>
+                <button class="btn-carrito">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="/imagenes/corazon.jpeg" alt="Vela con Forma de Corazón">
+                <h3>Vela con Forma de Corazón</h3>
+                <p>$25.000</p>
+                <button class="btn-carrito">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="/imagenes/espiral.jpeg" alt="Vela con Forma de Espiral">
+                <h3>Vela con Forma de Espiral</h3>
+                <p>$25.000</p>
+                <button class="btn-carrito">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="/imagenes/redonda.jpeg" alt="Vela con Forma de Esfera">
+                <h3>Vela con Forma de Esfera</h3>
+                <p>$25.000</p>
+                <button class="btn-carrito">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="/imagenes/rosa.jpeg" alt="Vela con Forma de Rosa">
+                <h3>Vela con Forma de Rosa</h3>
+                <p>$25.000</p>
+                <button class="btn-carrito">Agregar al carrito</button>
+            </div>
+
+
+    </div>
+  </section>
+
+<script src="script.js"></script>
+<a onclick="enviarWhatsApp()" class="btn-flotante-wsp">
+  <img src="imagenes/WhatsApp.png" alt="WhatsApp" />
+</a>
+
+</body>
+</html>

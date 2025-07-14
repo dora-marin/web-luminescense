@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contacto - Velas Luminescense</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  
+  <header class="header-flotante visible">
+    <div class="logo-scroll">VELAS LUMINESCENSE</div>
+    <div class="menu-carrito">
+      <nav class="nav">
+        <a href="index.html">INICIO</a>
+        <a href="productos.html">PRODUCTOS</a>
+        <a href="contacto.html">CONTACTO</a>
+        <a href="nosotros.html">NOSOTROS</a>
+      </nav>
+      <div class="carrito" id="ver-carrito" style="cursor: pointer; margin-left: 1rem;">
+        🛒 <span id="contador-carrito">0</span>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="carrito-popup" id="carrito-popup">
+    <h3>Carrito de Compras</h3>
+    <ul id="lista-carrito"></ul>
+    <button onclick="cerrarCarrito()">Cerrar</button>
+  </div>
+
+
+  <section id="contacto" class="seccion-centro">
+    <h2>Información de Contacto</h2>
+    <p>Contáctanos para conocer la variedad de formas de personalizar tus velas y sorprender 
+       a tus colegas, empleados, amigos y familia.</p>
+    <p>Correo: info@velasaromaticas.com</p>
+    <p>Teléfono: 312-000-0000</p>
+
+    <div class="redes-sociales">
+      <a onclick="enviarWhatsApp()" class="btn-whatsapp">
+        <i class="fab fa-whatsapp"></i> WhatsApp
+      </a>
+
+      <a href="https://www.instagram.com/tucuenta/" target="_blank" class="btn-instagram">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+    </div>
+  </section>
+
+  
+  <a onclick="enviarWhatsApp()" class="btn-flotante-wsp">
+    <img src="imagenes/WhatsApp.png" alt="WhatsApp" />
+  </a>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

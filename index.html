@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Tienda De Velas Aromaticas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header-flotante" id="menuScroll">
+    <div class="logo-scroll">VELAS LUMINESCENSE</div>
+
+    <div class="menu-carrito">
+     <nav class="nav">
+       <a href="#">INICIO</a>
+       <a href="productos.html">PRODUCTOS</a>
+       <a href="contacto.html">CONTACTO</a>
+       <a href="nosotros.html">NOSOTROS</a>
+     </nav>
+
+      <div class="carrito" id="ver-carrito" style="cursor: pointer; margin-left: 1rem;">
+      🛒  <span id="contador-carrito">0</span>
+      </div>
+    
+    </div>
+  </header>
+
+
+  
+  <div class="carrito-popup" id="carrito-popup">
+  <h3>Carrito de Compras</h3>
+  <ul id="lista-carrito"></ul>
+  <button onclick="cerrarCarrito()">Cerrar</button>
+  </div>
+
+
+
+    <header class="hero"    id="Inicio">
+        <div class="hero-content">
+        <h1> VELAS AROMATICAS LUMINESCENSE</h1>
+        <nav class="nav"> 
+            <a href="index.html"> INICIO</a>
+            <a href="productos.html">PRODUCTOS</a>
+            <a href="contacto.html">CONTACTO</a>
+            <a href="nosotros.html">NOSOTROS</a>
+        </nav>
+      </div>
+    </header>  
+
+    <div class="zoom-contenido">
+    <section class="productos">
+        <h2 class="titulo-productos">NUESTRAS VELAS</h2>
+        <div class="galeria">
+            <div class="producto">
+                <img src="/imagenes/vela1.jpeg" alt="Vela Lavanda "/>
+                <h3>Vela  de Lavanda</h3>
+                <p>$15.000</p>
+                <button class="btn-carrito">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="/imagenes/vela2.jpeg" alt="Vela Vainilla">
+                <h3>Esencia de vainilla</h3>
+                <p>$15.000</p>
+                <button class="btn-carrito">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="/imagenes/vela4.jpeg" alt="Vela Canela">
+                <h3>Esencia de Canela</h3>
+                <p>$15.000</p>
+                <button class="btn-carrito">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="/imagenes/velafloral.jpeg" alt="Vela Floral">
+                <h3>Esencia Floral</h3>
+                <p>$20.000</p>
+                <button class="btn-carrito">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="/imagenes/vela sinaroma.jpeg" alt="Vela Sin Aroma">
+                <h3>Vela Sin Aroma</h3>
+                <p>$15.000</p>
+                <button class="btn-carrito">Agregar al carrito</button>
+            </div>
+        </div>
+        <button class="btn-ver-mas"><a href="productos.html">VER MÁS</a></button>
+
+        
+  </section>
+
+  <section class="sobre-nosotros">
+    <div class="contenedor">
+      <img src="imagenes/vela3.jpg" alt="Velas sobre nosotros">
+      <div class="texto-sobre">
+        <h2>Sobre Nosotros</h2>
+        <p> 
+          En Luminescense creamos velas artesanales que despiertan los sentidos y transforman
+          los espacios, utilizando materiales ecológicos y fragancias naturales. cada vela esta 
+          hecha con amor y un compromiso real con el bienestar del planeta</p>
+        <button class="btn-ver-mas"><a href="nosotros.html">VER MÁS</a></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonios">
+    <h2>Testimonios</h2>
+
+    <div class="testimonio">
+      <div class="contenido-testimonio">
+        <img src="imagenes/laura .jpg" alt="@laura.maritinez" class="avatar">
+        <div class="texto-testimonio">
+          <p>“Las velas luminescense llenan mi casa de tranquilidad. Amo que sean naturales y duren tanto”</p>
+          <strong>@laura.maritinez</strong>
+      </div>
+      </div>
+    </div>
+    <div class="testimonio">
+      <div class="contenido-testimonio">
+        <img src="imagenes/camila.jpg" alt="@camila1.valencia" class="avatar">
+        <div class="texto-testimonio">
+          <p>“Su aroma es suave pero envolvente, nada artificial. Se nota que estan hechas con dedicación y conciencia ambiental”</p>
+          <strong>@camila1.valencia</strong>
+      </div>
+      </div>
+    </div>   
+    <div class="testimonio">
+      <div class="contenido-testimonio">
+        <img src="imagenes/santiago.jpg" alt="@santiago.G" class="avatar">
+        <div class="texto-testimonio">
+          <p>“Regale una vela de canela y lavanda y fue un exito.”</p>
+          <strong>@santiago.G</strong>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <p>Contacto: <strong>info@velasaromaticas.com</strong> | Tel: 312-000-0000</p>
+</footer>
+</div>
+
+<script src="script.js"></script>
+<a onclick="enviarWhatsApp()" class="btn-flotante-wsp">
+  <img src="imagenes/WhatsApp.png" alt="WhatsApp" />
+</a>
+
+</body>
+
+</html>
